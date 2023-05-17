@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Introducción
 
-Permite consultar diferentes datos meteorológicos del momento actual, así como el que habrá en las próximas horas de las ciudades principales de España.
+Permite consultar diferentes datos meteorológicos del momento actual, así como el que habrá en las próximas horas de las ciudades principales de España. Para ello se ha hecho uso de la OpenWeather API.
 
 ## Tecnologías utilizadas
 
