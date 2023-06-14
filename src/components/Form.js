@@ -18,7 +18,7 @@ export const Form = ({newLocation}) => {
                 <input
                     type="text"
                     className="form-control"
-                    placeholder="Ciudad"
+                    placeholder="Escribe el nombre de una ciudad o municipio"
                     onChange={(e) => setCity(e.target.value)}
                 />
                 <button
