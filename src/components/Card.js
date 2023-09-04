@@ -43,8 +43,9 @@ export const Card = ({showData, loadingData, weather, forecast}) => {
                                     </span>
                                         ºC
                                     </h1>
-                                    <p className="card-desc"><img src={iconUrl} alt="icon"/>{weather.weather[0].description}</p>
-                                    <img src='/images/cielo.jpg' className='img-fluid rounded-start' alt="ImagenEdificios"></img>
+                                    <img className='card-desc-icon' src={iconUrl} alt="icon"/>
+                                    <p className="card-desc">{weather.weather[0].description}</p>
+                                    <img className="img-fluid rounded-start" src='/images/cielo.jpg' alt="imagenFondo"></img>
                                 </div>
                                 <div className="col-md-8">
                                     <div className="card-body text-start mt-2">
