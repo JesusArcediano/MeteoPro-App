@@ -14,6 +14,7 @@ body {
   max-width: 70%;
 }
 
+
 .card-title{
   position: absolute;
   padding: 20px;
@@ -25,15 +26,67 @@ body {
   margin-top: 60px;
 }
 
-.card-temp{
+.card-actual-temp{
   position: absolute;
   padding-left: 20px;
   margin-top: 260px;
+  font-size: 46px;
+}
+
+@media (width < 1200px) {
+  .card-actual-temp,
+  .card-degrees {
+    font-size: 30px;
+  }
+}
+
+.img-fluid {
+  height: 400px;
+  width: 1000px;
+}
+
+.card-degrees {
   font-size: 50px;
+  padding-right: 10px;
 }
 
 .card-desc{
   position: absolute;
   padding-left: 20px;
   margin-top: 320px;
+}
+
+
+.card-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-text p {
+  margin: 0;
+  padding: 0 0 0 10px;
+  font-size: 1.2rem;
+}
+
+.temperature-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 5px;
+}
+
+.date,
+.description,
+.temp {
+  margin: 0;
+  padding: 0;
+}
+
+.description {
+  font-size: 0.8rem;
+}
+
+.temp {
+  margin-bottom: 2rem;
 }

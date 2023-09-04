@@ -17,7 +17,7 @@ export const Form = ({newLocation}) => {
             <div className="input-group mb-3 mx-auto">
                 <input
                     type="text"
-                    className="form-control"
+                    className="form-control p-2"
                     placeholder="Escribe el nombre de una ciudad o municipio"
                     onChange={(e) => setCity(e.target.value)}
                 />
@@ -25,7 +25,7 @@ export const Form = ({newLocation}) => {
                     className='btn btn-primary input-group-text'
                     type='submit'
                 >
-                    Buscar
+                    <h6 class="m-0 font-bold">Buscar</h6>
                 </button>
             </div>
         </form>

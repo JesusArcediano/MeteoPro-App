@@ -22,11 +22,10 @@ export const WeatherPanel = () => {
       setLocation(loc);
       
       try {
-          //weather
           urlWeather = urlWeather + cityUrl + loc;
   
           const resp = await fetch(urlWeather);
-          if (!resp.ok) throw new Error('jesús tío, se ha producido un weather error');
+          if (!resp.ok) throw new Error('Se ha producido un weather error');
           const weatherData = await resp.json();
           console.log(weatherData);
           setWeather(weatherData);
@@ -38,11 +37,10 @@ export const WeatherPanel = () => {
       }
 
       try {
-        //forecast
         urlForecast = urlForecast + cityUrl + loc;
 
         const resp = await fetch(urlForecast);
-        if (!resp.ok) throw new Error('jesús tío, se ha producido un forecast error');
+        if (!resp.ok) throw new Error('Se ha producido un forecast error');
         const forecastData = await resp.json();
         console.log(forecastData);
         setForecast(forecastData);
