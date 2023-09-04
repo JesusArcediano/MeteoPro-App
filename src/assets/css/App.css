@@ -100,3 +100,7 @@ body {
 .temp {
   margin-bottom: 2rem;
 }
+
+.helper-text {
+  color: rgb(241, 241, 241);
+}

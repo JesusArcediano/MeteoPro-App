@@ -18,8 +18,9 @@ export const Form = ({newLocation}) => {
                 <input
                     type="text"
                     className="form-control p-2"
-                    placeholder="Escribe el nombre de una ciudad o municipio"
+                    placeholder="Ej.: Sitges"
                     onChange={(e) => setCity(e.target.value)}
+                    helperText="Escribe el nombre de una ciudad o municipio"
                 />
                 <button
                     className='btn btn-primary input-group-text'
@@ -29,6 +30,7 @@ export const Form = ({newLocation}) => {
                 </button>
             </div>
         </form>
+        <h6 className='helper-text'>Escribe el nombre de una ciudad o municipio</h6>
     </div>
   )
 }

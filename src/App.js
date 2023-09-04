@@ -1,5 +1,4 @@
 import './assets/css/App.css';
-import './fonts/DS-DIGII.TTF';
 import { NavBar, WeatherPanel } from './components';
 
 function App() {
